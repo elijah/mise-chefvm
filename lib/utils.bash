@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for chefvm.
-GH_REPO="https://github.com/elijah/mise-chefvm"
+GH_REPO="https://github.com/torbrock/chefvm"
 TOOL_NAME="chefvm"
 TOOL_TEST="chefvm version"
 
