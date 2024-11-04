@@ -8,7 +8,7 @@ on:
 
 jobs:
   plugin_test:
-    name: asdf plugin test
+    name: mise plugin test
     strategy:
       matrix:
         os:
@@ -16,7 +16,7 @@ jobs:
           - macos-latest
     runs-on: ${{ matrix.os }}
     steps:
-      - name: asdf_plugin_test
+      - name: mise_plugin_test
         uses: asdf-vm/actions/plugin-test@v2
         with:
           command: chefvm version

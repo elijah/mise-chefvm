@@ -1,8 +1,8 @@
 <div align="center">
 
-# asdf-chefvm [![Build](https://github.com/elijah/asdf-chefvm/actions/workflows/build.yml/badge.svg)](https://github.com/elijah/asdf-chefvm/actions/workflows/build.yml) [![Lint](https://github.com/elijah/asdf-chefvm/actions/workflows/lint.yml/badge.svg)](https://github.com/elijah/asdf-chefvm/actions/workflows/lint.yml)
+# mise-chefvm [![Build](https://github.com/elijah/mise-chefvm/actions/workflows/build.yml/badge.svg)](https://github.com/elijah/mise-chefvm/actions/workflows/build.yml) [![Lint](https://github.com/elijah/mise-chefvm/actions/workflows/lint.yml/badge.svg)](https://github.com/elijah/mise-chefvm/actions/workflows/lint.yml)
 
-[chefvm](https://github.com/elijah/mise-chefvm) plugin for the [asdf version manager](https://asdf-vm.com).
+[chefvm](https://github.com/elijah/mise-chefvm) plugin for the [mise version manager](https://mise.jdx.dev/).
 
 </div>
 
@@ -25,35 +25,32 @@
 Plugin:
 
 ```shell
-asdf plugin add chefvm
+mise plugins install chefvm
 # or
-asdf plugin add chefvm https://github.com/elijah/asdf-chefvm.git
+mise plugins install chefvm https://github.com/elijah/mise-chefvm.git
 ```
 
 chefvm:
 
 ```shell
 # Show all installable versions
-asdf list-all chefvm
+mise ls-remote chefvm
 
 # Install specific version
-asdf install chefvm latest
-
-# Set a version globally (on your ~/.tool-versions file)
-asdf global chefvm latest
+mise install chefvm@v1.3.1
 
 # Now chefvm commands are available
 chefvm version
 ```
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
+Check [mise](https://github.com/jdx/mise) readme for more instructions on how to
 install & manage versions.
 
 # Contributing
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/elijah/asdf-chefvm/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/elijah/mise-chefvm/graphs/contributors)!
 
 # License
 

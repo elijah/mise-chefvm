@@ -3,10 +3,10 @@
 Testing Locally:
 
 ```shell
-asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
+mise plugin test <plugin-name> <plugin-url> [--mise-tool-version <version>] [--mise-plugin-gitref <git-ref>] [test-command*]
 
 # TODO: adapt this
-asdf plugin test chefvm https://github.com/elijah/asdf-chefvm.git "chefvm version"
+mise plugin test chefvm https://github.com/elijah/mise-chefvm.git "chefvm version"
 ```
 
 Tests are automatically run in GitHub Actions on push and PR.
