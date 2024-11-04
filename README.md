@@ -2,7 +2,7 @@
 
 # mise-chefvm [![Build](https://github.com/elijah/mise-chefvm/actions/workflows/build.yml/badge.svg)](https://github.com/elijah/mise-chefvm/actions/workflows/build.yml) [![Lint](https://github.com/elijah/mise-chefvm/actions/workflows/lint.yml/badge.svg)](https://github.com/elijah/mise-chefvm/actions/workflows/lint.yml)
 
-[chefvm](https://github.com/elijah/mise-chefvm) plugin for the [mise version manager](https://mise.jdx.dev/).
+[chefvm](https://github.com/torbrock/chefvm) plugin for the [mise version manager](https://mise.jdx.dev/).
 
 </div>
 
